@@ -1,7 +1,3 @@
-let a = prompt("Введите строку из 3 цифр:");
+let a = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-if (a.length===3) {
-  console.log(+a[0]+ +a[1]+ +a[2]);
-} else {
-    console.log("Введите три цифры!!!");
-}
+console.log('-'+a.join('-')+'-');

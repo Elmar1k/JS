@@ -1,9 +1,10 @@
 const week = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+const day = 'Суббота';
 
 for (let index = 0; index < week.length; index++) {
     const element = week[index];
-    if (index === 5 || index === 6) {
-        console.log(week[index].bold());
+    if (week[index]==day) {
+        console.log(week[index].italics());
     } else {
         console.log(week[index]);
     }
